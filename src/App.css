@@ -1,0 +1,28 @@
+.App {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-image: url('back.jpg');
+}
+
+button {
+  background-color: rgb(43, 96, 229);
+  color: white;
+  padding: 0.7rem;
+  border-color: rgb(43, 96, 229);
+  border-width: 0.5rem;
+  border-radius: 1rem;
+}
+
+.gameOver {
+  background-color: var(--xRed);
+  border-color: var(--xRed);
+  border-width: 0.5rem;
+}
+
+.buttonR>* {
+  margin: 10px;
+}
